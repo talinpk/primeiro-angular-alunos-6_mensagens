@@ -13,6 +13,7 @@ import {PipesModule} from '../pipes/pipes.module';
 import {FlexModule} from '@angular/flex-layout';
 import {RouterLink} from '@angular/router';
 import { ListagemUsuarioTabelaComponent } from './listagem-usuario-tabela/listagem-usuario-tabela.component';
+import {MatTableModule} from '@angular/material/table';
 
 
 
@@ -33,7 +34,8 @@ import { ListagemUsuarioTabelaComponent } from './listagem-usuario-tabela/listag
     MatBadgeModule,
     PipesModule,
     FlexModule,
-    RouterLink
+    RouterLink,
+    MatTableModule
   ],
   exports: [
     ListagemUsuariosComponent,

@@ -8,10 +8,10 @@ import { MensagemService } from 'src/app/shared/services/mensagem.service';
 
 @Component({
   selector: 'app-listagem-tabela',
-  templateUrl: './listagem-tabela.component.html',
-  styleUrls: ['./listagem-tabela.component.css'],
+  templateUrl: './listagem-usuario-tabela.component.html',
+  styleUrls: ['./listagem-usuario-tabela.component.css'],
 })
-export class ListagemTabelaComponent {
+export class ListagemUsuarioTabelaComponent {
 
   colunas:string[] = ['id','nome','idade','cpf','acoes']
   usuarios: Usuario[] = [];
